@@ -16,7 +16,7 @@ router.get("/", function(req, res) {
   });
 });
 
-router.post("/api/burger/", function(req, res) {
+router.post("/api/burger", function(req, res) {
   burger.create([
     "name", "is_eaten"
   ], [
